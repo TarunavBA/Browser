@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: toogabrowser
+Formal-Name: Tooga-Browser
+App-ID: com.example.toogabrowser
+Version: 0.0.1
+Home-page: https://github.com/TarunavBA/Browser
+Author: Tarunav.BA
+Author-email: tarunavba@gmail.com
+Summary: A browser built using beeware's tooga module

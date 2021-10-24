@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Tooga-Browser"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://github.com/TarunavBA/Browser"
+license = "BSD license"
+author = 'Tarunav.BA'
+author_email = "tarunavba@gmail.com"
+
+[tool.briefcase.app.toogabrowser]
+formal_name = "Tooga-Browser"
+description = "A browser built using beeware's tooga module"
+icon = "src/toogabrowser/resources/toogabrowser"
+sources = ['src/toogabrowser']
+requires = []
+
+
+[tool.briefcase.app.toogabrowser.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.toogabrowser.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.toogabrowser.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.toogabrowser.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.toogabrowser.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
