@@ -2,7 +2,7 @@
 
 [![badge](https://img.shields.io/github/languages/top/TarunavBA/Browser?style=for-the-badge)
 
-**This cross-platform** browser built using [tooga](https://beeware.org/project/projects/libraries/toga/). 
+**This cross-platform** browser built using [tooga](https://beeware.org/project/projects/libraries/toga/) module. 
 
 ### To get this project running:
 
